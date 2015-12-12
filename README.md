@@ -38,11 +38,11 @@ Another optimizer
 
 ### Adam Optimizer 
 
-(Kingma & Ba, 2015)[http://arxiv.org/pdf/1412.6980v7.pdf]
+[Kingma & Ba, 2015](http://arxiv.org/pdf/1412.6980v7.pdf)
 
 ### FTRL-proximal algorithm, Follow-the-regularized-leader
 
-(Google, 2013)[https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf]
+[Google, 2013](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)
 
 ### Rectified Linear Unit (ReLU)
 
@@ -93,21 +93,21 @@ A type of RNN that solves the exploding/vanishing gradient problem.
 
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
-(This paper)[http://arxiv.org/abs/1503.04069] is a great exploration of
-variations. Concludes that (vanilla LSTM)[http://www.sciencedirect.com/science/article/pii/S0893608005001206] is best.
+[This paper](http://arxiv.org/abs/1503.04069) is a great exploration of
+variations. Concludes that [vanilla LSTM](http://www.sciencedirect.com/science/article/pii/S0893608005001206) is best.
 
-Originally invented by (Hochreiter & Schmidhuber, 1997)[http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf]
+Originally invented by [Hochreiter & Schmidhuber, 1997](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)
 
 
 
 ## Models
 
 ### AlexNet
-The winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
+
+Winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
 Dropout, ReLUs.
 
-<a href="http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">paper</a>
-[Alex Krizhevsky, Ilya Sutskever, Hinton](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
+http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
 
 ### VGG-16 / VGG-19 / OxfordNet
 Close second place winner in ILSVRC 2014. Very simple CNN architecure using only
