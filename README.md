@@ -13,13 +13,14 @@ Contributions welcome - there may be errors here!
 The most prominent computer vision contest, using the largest data set of images (ImageNet).
 The progress in the classification task has brought CNNs to dominate the field of computer vision.
 
-| Year          | Model         | Top-5 Error | Layers | Paper
-| ------------- |:-------------:| -----------:|-------:|------------------------------
-| 2012          | AlexNet       |     17.0 %  |      8 | http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
-| 2013          | ZFNet         |     17.0 %  |      8 | http://arxiv.org/abs/1311.2901
-| 2014          | VGG-19        |      8.43%  |     19 | http://arxiv.org/abs/1409.1556
-| 2014          | GoogLeNet     |      7.89%  |     22 | http://arxiv.org/abs/1409.4842
-| 2015          | ResNet        |      4.49%  |    152 | http://arxiv.org/abs/1512.03385
+| Year          | Model                     | Top-5 Error | Layers | Paper
+| ------------- |:-------------------------:| -----------:|-------:|------------------------------
+| 2012          | AlexNet                   |     17.0 %  |      8 | http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
+| 2013          | ZFNet                     |     17.0 %  |      8 | http://arxiv.org/abs/1311.2901
+| 2014          | VGG-19                    |      8.43%  |     19 | http://arxiv.org/abs/1409.1556
+| 2014          | GoogLeNet / Inception     |      7.89%  |     22 | http://arxiv.org/abs/1409.4842
+| 2015          | Inception v3              |             |        | 
+| 2015          | ResNet                    |      4.49%  |    152 | http://arxiv.org/abs/1512.03385
 
 
 ## Techniques
