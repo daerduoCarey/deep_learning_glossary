@@ -19,7 +19,7 @@ The progress in the classification task has brought CNNs to dominate the field o
 | 2013          | ZFNet                     |     17.0 %  |      8 | http://arxiv.org/abs/1311.2901
 | 2014          | VGG-19                    |      8.43%  |     19 | http://arxiv.org/abs/1409.1556
 | 2014          | GoogLeNet / Inception     |      7.89%  |     22 | http://arxiv.org/abs/1409.4842
-| 2015          | Inception v3              |             |        | 
+| 2015          | Inception v3              |      5.6%   |        | http://arxiv.org/abs/1512.00567
 | 2015          | ResNet                    |      4.49%  |    152 | http://arxiv.org/abs/1512.03385
 
 
@@ -27,7 +27,7 @@ The progress in the classification task has brought CNNs to dominate the field o
 
 ### Stochastic Gradient Descent (SGD)
 
-The original and simpliest back propigation optimization algorithm. Still used everywhere!
+The original and simpliest back propagation optimization algorithm. Still used everywhere!
 
 ### SGD with Momentum 
 
