@@ -99,6 +99,23 @@ variations. Concludes that [vanilla LSTM](http://www.sciencedirect.com/science/a
 
 Originally invented by [Hochreiter & Schmidhuber, 1997](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)
 
+### Attention
+
+Not well defined. The idea of processing only part of the input at each time
+step. In visual attention, this is a low resolution window that jumps around
+the high resolution input image. Determining where to focus attention is
+controlled by a RNN. 
+
+Typical convolutional networks have input around 300 x 300 inputs, which is
+rather low resolution. Computation complexity grows at least linearly in the
+number of pixel inputs.  Attention models seem like a promising method of
+handling larger inputs.
+
+[Recurrent Models of Visual Attention](http://arxiv.org/abs/1406.6247) Attention applied to MNIST.
+
+[Multiple Object Recognition with Visual Attention](http://arxiv.org/abs/1412.7755) Essentially v2 of the above model.
+
+[DRAW: A Recurrent Neural Network For Image Generation](http://arxiv.org/abs/1502.04623) A generative attention model
 
 
 ## Models
@@ -133,6 +150,13 @@ http://arxiv.org/pdf/1511.06392v1
 
 (Volodymyr Mnih Koray Kavukcuoglu David Silver Alex Graves Ioannis Antonoglou
 Daan Wierstra Martin Riedmiller)
+
+### R-CNN Regions with Convolutional Neural Networks
+
+Object detection model.
+
+Girshick et al., 2014
+
 
 ## Software
 
