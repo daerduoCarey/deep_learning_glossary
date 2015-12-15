@@ -128,6 +128,15 @@ The progress in the classification task has brought CNNs to dominate the field o
 Largest image dataset. Each image is tagged with a WordNet nouns. One of the
 key peices in the CNN progress along with GPUs and dedicated researchers.
 
+### Leaky ReLU 
+
+Variation on ReLU that some have success with.
+
+```
+leaky_relu(x) = x          when x >= 0
+                0.01 * x   when x < 0
+```
+
 
 ### Long Short Term Memory (LSTM)
 
