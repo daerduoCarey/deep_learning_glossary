@@ -75,6 +75,20 @@ Introduced in AlexNet? Randomly zero out 50% of inputs during the forward pass.
 Simple regularizer.
 
 
+### Exponential Linear Units (ELUs)
+
+Another activiation function designed to avoid vanishing gradients.
+
+```
+elu(x) = x          when x >= 0
+         exp(x) - 1 when x < 0
+```
+
+![elu graph](elu.png)
+
+[Clevert, Unterthiner, Hochreiter 2015](http://arxiv.org/abs/1511.07289)
+
+
 ### FTRL-proximal algorithm, Follow-the-regularized-leader
 
 [Google, 2013](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)
