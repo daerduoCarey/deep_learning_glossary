@@ -57,6 +57,13 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 ![cifar-10 example](cifar.png)
 
 
+### Convolutional Neural Network (CNN)
+
+This is the best intro: http://cs231n.github.io/convolutional-networks/ 
+
+[LeCun demoing one in '93](https://www.youtube.com/watch?v=FwFduRA_L6Q)
+
+
 ### Deep Q Network (DQN)
 
 The atari playing model. This is the closest thing to a real "AI" out there. It learns
