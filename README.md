@@ -158,6 +158,8 @@ Originally invented by [Hochreiter & Schmidhuber, 1997](http://deeplearning.cs.c
 
 Handwritten digits. 28x28 images. 60,000 training images and 10,000 testing images
 
+![MNIST example](mnist.png)
+
 
 ### Momentum 
 
