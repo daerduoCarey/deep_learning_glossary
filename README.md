@@ -7,15 +7,6 @@ Deep Learning / AI / ML.
 Contributions welcome - there may be errors here!
 
 
-### Adagrad
-
-Another optimizer
-
-
-### Adam Optimizer 
-
-[Kingma & Ba, 2015](http://arxiv.org/pdf/1412.6980v7.pdf)
-
 
 ### AlexNet
 
