@@ -50,7 +50,11 @@ learning.
 60000 32x32 colour images in 10 classes, with 6000 images per class. There are
 50000 training images and 10000 test images. 
 
+There's also a CIFAR-100 with 100 classes.
+
 https://www.cs.toronto.edu/~kriz/cifar.html
+
+![cifar-10 example](cifar.png)
 
 
 ### Deep Q Network (DQN)
