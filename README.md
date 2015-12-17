@@ -11,7 +11,9 @@ Contributions welcome - there may be errors here!
 ### AlexNet
 
 Winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
-Dropout, ReLUs.
+Uses Dropout, ReLUs, and a GPU.
+
+Kind of the canonical deep convolution net.
 
 http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
 
