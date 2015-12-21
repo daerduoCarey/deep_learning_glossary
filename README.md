@@ -195,6 +195,20 @@ relu(x) = max(x, 0)
 
 [Nair & Hinton, 2010](http://www.cs.toronto.edu/~fritz/absps/reluICML.pdf)
 
+
+### ResNet
+
+A Microsoft Research model that won several categories of ILSVRC 2015.
+The key insight is that as networks get deeper they can get worse, by adding
+identify short cut connections over every two convolutional layers they are 
+able to improve performance up to a 152 layer deep network. 
+Here is a table from the paper that roughly shows the architectures they tried
+
+![ResNet arch](resnet.png)
+
+[Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, 2015](http://arxiv.org/abs/1512.03385)
+
+
 ### R-CNN, Regions with Convolutional Neural Networks
 
 Object detection model.
