@@ -8,16 +8,6 @@ Contributions welcome - there may be errors here!
 
 
 
-### AlexNet
-
-Winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
-Uses Dropout, ReLUs, and a GPU.
-
-Kind of the canonical deep convolution net.
-
-http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
-
-
 ### Adversarial Networks
 
 For generative networks (that is networks that produce high dimensional data like images or sound)
@@ -29,6 +19,16 @@ deciding if it got input from the dataset or from the generator.
 [Generative Adversarial Networks](http://arxiv.org/abs/1406.2661) (2014)
 
 [Adversarial Autoencoders](http://arxiv.org/abs/1511.05644) (2015)
+
+
+### AlexNet
+
+Winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
+Uses Dropout, ReLUs, and a GPU.
+
+Kind of the canonical deep convolution net.
+
+http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
 
 
 ### Attention
