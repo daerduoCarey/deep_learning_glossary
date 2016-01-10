@@ -18,6 +18,19 @@ Kind of the canonical deep convolution net.
 http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
 
 
+### Adversarial Networks
+
+For generative networks (that is networks that produce high dimensional data like images or sound)
+typical loss functions cannot express the complexity of the data. Goodfellow et al proposed a scheme
+where you train two networks: the generator and the discriminator. The generator tries to fool the
+discriminator into think it's producing real data. The discriminator outputs a single probability
+deciding if it got input from the dataset or from the generator.
+
+[Generative Adversarial Networks](http://arxiv.org/abs/1406.2661) (2014)
+
+[Adversarial Autoencoders](http://arxiv.org/abs/1511.05644) (2015)
+
+
 ### Attention
 
 Not well defined. The idea of processing only part of the input at each time
@@ -73,6 +86,13 @@ end-to-end from its input and makes actions.
 Daan Wierstra Martin Riedmiller)
 
 
+### Discriminative Model
+
+A model that outputs a category based on its input. As opposed to generative model.
+
+Image classification systems are discriminative.
+
+
 ### Dropout
 
 Introduced in AlexNet? Randomly zero out 50% of inputs during the forward pass.
@@ -96,6 +116,13 @@ elu(x) = x          when x >= 0
 ### FTRL-proximal algorithm, Follow-the-regularized-leader
 
 [Google, 2013](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)
+
+
+### Generative Model
+
+A model that produces output like the dataset it is training on. As opposed to a discriminative model.
+
+A model that creates images or sound would be a generative model.
 
 
 ### Grid-LSTM
