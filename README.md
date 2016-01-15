@@ -8,19 +8,6 @@ Contributions welcome - there may be errors here!
 
 
 
-### Adversarial Networks
-
-For generative networks (that is networks that produce high dimensional data like images or sound)
-typical loss functions cannot express the complexity of the data. Goodfellow et al proposed a scheme
-where you train two networks: the generator and the discriminator. The generator tries to fool the
-discriminator into think it's producing real data. The discriminator outputs a single probability
-deciding if it got input from the dataset or from the generator.
-
-[Generative Adversarial Networks](http://arxiv.org/abs/1406.2661) (2014)
-
-[Adversarial Autoencoders](http://arxiv.org/abs/1511.05644) (2015)
-
-
 ### AlexNet
 
 Winner of ILSVRC 2012. Made a huge jump in accuracy using CNN. 
@@ -116,6 +103,19 @@ elu(x) = x          when x >= 0
 ### FTRL-proximal algorithm, Follow-the-regularized-leader
 
 [Google, 2013](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)
+
+
+### Generative Adversarial Networks (GAN)
+
+For generative networks (that is networks that produce high dimensional data like images or sound)
+typical loss functions cannot express the complexity of the data. Goodfellow et al proposed a scheme
+where you train two networks: the generator and the discriminator. The generator tries to fool the
+discriminator into think it's producing real data. The discriminator outputs a single probability
+deciding if it got input from the dataset or from the generator.
+
+[Generative Adversarial Networks (GAN)](http://arxiv.org/abs/1406.2661) (2014)
+
+[Adversarial Autoencoders](http://arxiv.org/abs/1511.05644) (2015)
 
 
 ### Generative Model
@@ -251,6 +251,15 @@ The original and simpliest back propagation optimization algorithm. Still used e
 ### TIMIT Speech database 
 
 (Garofolo et al., 1993) 
+
+
+### Variational Autoencoder (VAE)
+
+Generative model. Compare to GAN.
+
+[Aaron Courville's slides](https://ift6266h15.files.wordpress.com/2015/04/20_vae.pdf)  (April 2015)
+
+[Karol Gregor on Variational Autoencoders and Image Generation](https://www.youtube.com/watch?v=P78QYjWh5sM) (March 2015)
 
 
 ### VGG-16 / VGG-19
