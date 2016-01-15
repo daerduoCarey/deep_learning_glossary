@@ -214,7 +214,7 @@ http://arxiv.org/pdf/1502.01852v1
 ### Rectified Linear Unit (ReLU)
 
 Rectified linear unit is a common activation function which was first proved useful in AlexNet.
-Recommend over sigmoid activiation.
+Recommend over sigmoid and tanh activiations.
 
 ```
 relu(x) = max(x, 0)
@@ -245,7 +245,7 @@ Girshick et al., 2014
 
 ### Stochastic Gradient Descent (SGD)
 
-The original and simpliest back propagation optimization algorithm. Still used everywhere!
+The backbone of Machine Learning.
 
 
 ### TIMIT Speech database 
