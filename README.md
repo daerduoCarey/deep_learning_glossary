@@ -257,6 +257,8 @@ The backbone of Machine Learning.
 
 Generative model. Compare to GAN.
 
+[Deep AutoRegressive Networks](http://arxiv.org/abs/1310.8499) (October 2013)
+
 [Aaron Courville's slides](https://ift6266h15.files.wordpress.com/2015/04/20_vae.pdf)  (April 2015)
 
 [Karol Gregor on Variational Autoencoders and Image Generation](https://www.youtube.com/watch?v=P78QYjWh5sM) (March 2015)
